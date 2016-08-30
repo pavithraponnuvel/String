@@ -1,0 +1,17 @@
+for(i=0;i<s1.length();i++){
+            for(j=0;j<s2.length();j++){
+                c1=s1.charAt(i);
+                c2=s2.charAt(j);
+                    if(c1==c2){
+                    count++;
+                    if(count==1){
+                        n=i;
+                    }else{
+                        n1=-1;
+                    }
+                }}}
+                if(count==s2.length()){
+                    System.out.println(""+n);
+                }else{
+                    System.out.println(""+n1);
+                }
